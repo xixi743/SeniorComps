@@ -1,7 +1,14 @@
 /// @description Create the variables
 
+// Image speeds
+image_speed = 0;
+idle_speed = .6;
+run_speed = 4;
+jump_speed = 0;
+
+// Physics and movement
 hspeed_ = 0;
-max_hspeed_ = 1.5;
+max_hspeed_ = 1;
 vspeed_ = 0;
 gravity_ = .7;
 acceleration_ = 1.5;
