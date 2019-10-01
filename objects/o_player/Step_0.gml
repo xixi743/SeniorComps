@@ -1,5 +1,6 @@
 /// @description Insert description here
 
+if state == "move" {
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 // ends up being +1 or -1 depending on what you are pressing
 // 0 if pressing both
@@ -57,6 +58,11 @@ if keyboard_check(vk_up) {
 	image_speed = jump_speed;
 }
 
+if keyboard_check_pressed(vk_space) {
+	image_index = 0;
+	state = "attack";
+}
+
 if place_meeting(x+hspeed_, y, o_solid) {
 	//prevents the gap between the wall and the player
 	while !place_meeting(x+sign(hspeed_), y, o_solid) { //while we are not quite touch the wall
@@ -76,3 +82,13 @@ if place_meeting(x, y+vspeed_, o_solid) {
 	vspeed_ = 0;
 }
 y += vspeed_;
+}
+
+if state == "attack" {
+	sprite_index = s_player_attack;
+	image_speed = 1;
+	
+	// tutorial does roll event here and wants x to increment as they roll
+	// i do not want my character to move during attack, so I will leave it
+	// wihout the changes to hspeed_ / x
+}

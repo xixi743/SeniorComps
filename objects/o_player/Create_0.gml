@@ -1,5 +1,8 @@
 /// @description Create the variables
 
+state = "move";
+
+
 // Image speeds
 image_speed = 0;
 idle_speed = .6;
