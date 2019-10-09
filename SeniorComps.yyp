@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2baf7b1c-32e8-458a-b536-b3b51c58aeaa",
+            "Value": {
+                "id": "16e16a28-d2e4-4f49-a2bd-0bd89fa6d5df",
+                "resourcePath": "objects\\o_zombie\\o_zombie.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e0a7fa7-2365-4aaa-bc7a-f689f52b13b7",
             "Value": {
                 "id": "ef93bc1c-1cf8-4917-b027-af12d5e8c603",
@@ -127,11 +135,27 @@
             }
         },
         {
+            "Key": "5e6fbf62-7899-4b6e-bb3d-d172fe2b9c9e",
+            "Value": {
+                "id": "5be9fd8a-d147-420b-b2ba-bd75d33a1c1d",
+                "resourcePath": "sprites\\s_big_zombie_mask\\s_big_zombie_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6072f7a3-c34c-4a17-88c6-c4ae06d5b84d",
             "Value": {
                 "id": "f431ceed-66d4-478d-ac17-319739959985",
                 "resourcePath": "views\\6072f7a3-c34c-4a17-88c6-c4ae06d5b84d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "662266cd-7ff1-4795-8357-68e165a2bd38",
+            "Value": {
+                "id": "dcdd62de-da0d-4f57-a611-636315a65c43",
+                "resourcePath": "sprites\\s_big_zombie_run\\s_big_zombie_run.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,6 +207,14 @@
             }
         },
         {
+            "Key": "9fc30931-d951-4236-b256-d49fabe99db0",
+            "Value": {
+                "id": "2ae2af3b-c14e-471e-b0d1-e6ce48eac954",
+                "resourcePath": "views\\9fc30931-d951-4236-b256-d49fabe99db0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "5cbbad05-398f-4c59-bfea-c187376c34e7",
@@ -195,6 +227,14 @@
             "Value": {
                 "id": "9f26cab8-2711-4462-afa1-af12ee33f2bf",
                 "resourcePath": "views\\aa373ad3-971e-4085-9e6e-660486a3fa34.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aa4ee193-340a-470e-9649-846b0dc3d8cc",
+            "Value": {
+                "id": "34b0fff8-d6d8-449e-8134-68ddb0b62558",
+                "resourcePath": "views\\aa4ee193-340a-470e-9649-846b0dc3d8cc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -212,6 +252,14 @@
                 "id": "aaf6d921-f6ae-4e7c-82f6-eefd675a5ff7",
                 "resourcePath": "views\\b9cabd2e-324b-4e62-a03a-3725292bd71a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc04db85-c65a-41a2-b832-5f0b0d62fa15",
+            "Value": {
+                "id": "2a66bafe-4cbd-4d76-818b-3c7f2abe66b3",
+                "resourcePath": "sprites\\s_big_zombie_idle\\s_big_zombie_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -247,11 +295,35 @@
             }
         },
         {
+            "Key": "d396cbb3-c628-4965-930a-7638dcd91147",
+            "Value": {
+                "id": "bd6c0cf8-5f3e-4731-b9d5-51b9cb3c9806",
+                "resourcePath": "views\\d396cbb3-c628-4965-930a-7638dcd91147.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d461ef81-3e9b-4cbe-b6e5-033efddfed25",
+            "Value": {
+                "id": "8d099012-b531-4e7c-bad1-a1149e8d7df7",
+                "resourcePath": "sprites\\s_zomie_idle\\s_zomie_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d5e19b2c-5433-4eed-ae52-6ad5039fcd10",
             "Value": {
                 "id": "5c2ffc8a-32eb-4d63-a260-a1f0158965c2",
                 "resourcePath": "views\\d5e19b2c-5433-4eed-ae52-6ad5039fcd10.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ddf7eeae-9b8d-40a0-8f71-fcdda539e78f",
+            "Value": {
+                "id": "4d1a3e82-72a4-4a86-bc29-de4e634a749a",
+                "resourcePath": "sprites\\s_zombie_run\\s_zombie_run.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
