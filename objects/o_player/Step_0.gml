@@ -4,11 +4,11 @@ switch (state)
 {
 	case "move":
 		#region Move State
-		var hinput = keyboard_check(vk_right) - keyboard_check(vk_left);
+		var hinput = input.right - input.left;
 		// ends up being +1 or -1 depending on what you are pressing
 		// 0 if pressing both
 
-		if !keyboard_check(vk_right) and !keyboard_check(vk_left) {
+		if !input.right and !input.left {
 			sprite_index = s_player_idle;
 			image_speed = idle_speed;
 		}
@@ -26,16 +26,18 @@ switch (state)
 			image_speed = idle_speed;
 		}
 
-		if keyboard_check(vk_right) {
+		// moving to the right
+		if input.right {
 			// checking x+4 because that's where we will be moving
-			move_and_collide(4, 0);
+			move_and_collide(run_speed_mvmt, 0);
 			image_xscale = 3;
 			sprite_index = s_player_run_right;
 			image_speed = run_speed / 3;
 		}
 
-		if keyboard_check(vk_left) {
-			move_and_collide(-4, 0);
+		// moving to the left
+		if input.left {
+			move_and_collide(-run_speed_mvmt, 0);
 			image_xscale = -3;
 			sprite_index = s_player_run_right;
 			image_speed = run_speed / 3;
@@ -51,16 +53,24 @@ switch (state)
 			}
 		}
 
-		if keyboard_check(vk_up) {
+		// jumping animation
+		if input.jump {
 			sprite_index = s_player_jump;
 			image_speed = jump_speed;
+		}
+		
+		//player idles and doesn't move if both left and right are being pressed
+		if input.left and input.right {
+			sprite_index = s_player_idle;
+			image_speed = idle_speed;
 		}
 		
 		// TODO Might want to make a state for jumping/in air
 		// because we have the jumping animation, even when the player
 		// is still on the ground
 
-		if keyboard_check_pressed(vk_space) {
+		// entering attack state when player uses spacebar
+		if input.attack {
 			image_index = 0;
 			state = "attack";
 		}
@@ -98,9 +108,5 @@ switch (state)
 		
 		
 		#endregion
-		break;
-		
-	case "idle":
-		#region Idle State
 		break;
 }

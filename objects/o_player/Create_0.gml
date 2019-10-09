@@ -2,6 +2,10 @@
 
 state = "move";
 
+// Dependencies
+input = instance_create_layer(0, 0, "Instances", o_input);
+	// giving us access to our input object
+
 
 // Image speeds
 image_speed = 0;
@@ -17,9 +21,4 @@ gravity_ = .7;
 acceleration_ = 1.5;
 friction_ = .3;
 jump_height_ = -10;
-
-// Map the keys
-keyboard_set_map(ord("W"), vk_up);
-keyboard_set_map(ord("A"), vk_left);
-keyboard_set_map(ord("S"), vk_down);
-keyboard_set_map(ord("D"), vk_right);
+run_speed_mvmt = 4;
