@@ -71,7 +71,6 @@ switch (state)
 
 		// entering attack state when player uses spacebar
 		if input.attack {
-			image_index = 0;
 			state = "attack";
 		}
 
@@ -98,14 +97,12 @@ switch (state)
 		break;
 		
 	case "attack":
-		#region Roll State
-		sprite_index = s_player_attack;
-		image_speed = 1;
+		#region Attack State
+		set_state_sprite(s_player_attack, 1,0)
 	
 		// tutorial does roll event here and wants x to increment as they roll
 		// i do not want my character to move during attack, so I will leave it
 		// wihout the changes to hspeed_ / x
-		
 		
 		#endregion
 		break;
