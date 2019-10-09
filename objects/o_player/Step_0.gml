@@ -13,11 +13,6 @@ switch (state)
 			image_speed = idle_speed;
 		}
 
-		if keyboard_check(vk_right) and keyboard_check(vk_left) {
-			sprite_index = s_player_idle;
-			image_speed= idle_speed;
-		}
-
 		if hinput != 0 {
 			hspeed_ += hinput * acceleration_;
 			// adds acceleration to the horizontal speed to the direction that our input is
@@ -31,16 +26,16 @@ switch (state)
 			image_speed = idle_speed;
 		}
 
-		if keyboard_check(vk_right) and !place_meeting(x+hspeed_, y, o_solid) {
+		if keyboard_check(vk_right) {
 			// checking x+4 because that's where we will be moving
-			hspeed_ = 8;
+			move_and_collide(4, 0);
 			image_xscale = 3;
 			sprite_index = s_player_run_right;
 			image_speed = run_speed / 3;
 		}
 
-		if keyboard_check(vk_left) and !place_meeting(x-hspeed_, y, o_solid) {
-			hspeed_ = -8;
+		if keyboard_check(vk_left) {
+			move_and_collide(-4, 0);
 			image_xscale = -3;
 			sprite_index = s_player_run_right;
 			image_speed = run_speed / 3;
@@ -60,6 +55,10 @@ switch (state)
 			sprite_index = s_player_jump;
 			image_speed = jump_speed;
 		}
+		
+		// TODO Might want to make a state for jumping/in air
+		// because we have the jumping animation, even when the player
+		// is still on the ground
 
 		if keyboard_check_pressed(vk_space) {
 			image_index = 0;
@@ -96,6 +95,12 @@ switch (state)
 		// tutorial does roll event here and wants x to increment as they roll
 		// i do not want my character to move during attack, so I will leave it
 		// wihout the changes to hspeed_ / x
+		
+		
 		#endregion
+		break;
+		
+	case "idle":
+		#region Idle State
 		break;
 }
