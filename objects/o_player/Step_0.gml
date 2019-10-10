@@ -104,6 +104,10 @@ switch (state)
 		// i do not want my character to move during attack, so I will leave it
 		// wihout the changes to hspeed_ / x
 		
+		if animation_hit_frame(2) {
+			create_hitbox(x, y, self, s_player_attack, 4, 4, 1, image_xscale)	;
+		}
+		
 		if animation_end() {
 			state = "move";
 		}
