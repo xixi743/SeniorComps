@@ -87,10 +87,18 @@
             }
         },
         {
+            "Key": "288266a7-1a1f-4747-9e2c-aa5099a9a205",
+            "Value": {
+                "id": "c460cbb1-0da4-4a4d-bb52-ae95cd2d307b",
+                "resourcePath": "sprites\\s_skeleton_react\\s_skeleton_react.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2baf7b1c-32e8-458a-b536-b3b51c58aeaa",
             "Value": {
                 "id": "16e16a28-d2e4-4f49-a2bd-0bd89fa6d5df",
-                "resourcePath": "objects\\o_zombie\\o_zombie.yy",
+                "resourcePath": "objects\\o_skeleton\\o_skeleton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -119,10 +127,26 @@
             }
         },
         {
+            "Key": "4e763b2f-0d43-4043-91ac-2ab71c1b6cfb",
+            "Value": {
+                "id": "9cb4f40c-62e6-4a61-a992-6fdef2383a2f",
+                "resourcePath": "sprites\\s_skeleton_idle\\s_skeleton_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f379306-3cda-4c40-bd1a-85b8bc49e04e",
             "Value": {
                 "id": "62cbc523-d780-4dc3-aadb-3fdc3eb305f3",
                 "resourcePath": "sprites\\s_player_idle\\s_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51d41eb0-d2cc-40a7-b124-b6820191be4f",
+            "Value": {
+                "id": "cb742d46-5435-463f-8542-3dd5b704ee4b",
+                "resourcePath": "sprites\\s_skeleton_dead\\s_skeleton_dead.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -132,6 +156,14 @@
                 "id": "3428f582-b2f5-473f-b2e3-9f907bf77d0b",
                 "resourcePath": "sprites\\s_player_mask\\s_player_mask.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5945498c-b3c3-499a-b694-fbcdedfd0732",
+            "Value": {
+                "id": "4df42f74-cc7f-4b61-a56f-bfc2a6885aa1",
+                "resourcePath": "views\\5945498c-b3c3-499a-b694-fbcdedfd0732.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -164,6 +196,14 @@
                 "id": "f9dd239e-4e97-4aea-b893-8586bfbd3bea",
                 "resourcePath": "scripts\\get_input\\get_input.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "79ffd8e2-c63f-4aa0-b474-e27215a8698b",
+            "Value": {
+                "id": "9e2374d7-e162-4eb6-9323-4b8e5cb4e3e1",
+                "resourcePath": "sprites\\s_skeleton_mask\\s_skeleton_mask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +335,14 @@
             }
         },
         {
+            "Key": "c4d37ab2-d685-4188-982b-315b603f5a32",
+            "Value": {
+                "id": "f91c4ea1-f8d1-48f8-99e0-764a72f8a7f0",
+                "resourcePath": "sprites\\s_skeleton_hit\\s_skeleton_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cb1dde5f-9fb2-489c-8d12-26a3b394f826",
             "Value": {
                 "id": "2d248ab5-e1a8-443e-ad11-ac0bdb88c30b",
@@ -308,6 +356,14 @@
                 "id": "8ae106df-0857-4699-8333-0d2b636582ec",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce7bcab0-1eab-45d1-b3e0-6da505841c33",
+            "Value": {
+                "id": "9421e259-9922-4f5c-b634-0d1245131ab8",
+                "resourcePath": "sprites\\s_skeleton_walk\\s_skeleton_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -388,6 +444,14 @@
                 "id": "c52020db-4c1d-458c-ac3f-93f6c88af73d",
                 "resourcePath": "views\\f87d71cf-0a51-4b6d-9bce-1667a0718314.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fcaaaf6e-448e-4836-833d-b822fadb6ba0",
+            "Value": {
+                "id": "be593bd8-7c67-402b-ad1e-81cd85d2669a",
+                "resourcePath": "sprites\\s_skeleton_attack\\s_skeleton_attack.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

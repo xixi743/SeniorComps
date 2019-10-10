@@ -1,11 +1,11 @@
 switch (state) {
 	case "chase":
-		set_state_sprite(s_big_zombie_run, 1, 0);
+		#region Chase State
+		set_state_sprite(s_skeleton_walk, 1, 0);
 		
 		// find out player and attempt to move towards the player
 		// check if player exists
 		if !instance_exists(o_player) break;
-		
 		
 		image_xscale = (sign(o_player.x - x))*3;
 		// sign function returns -1, 0, or 1
@@ -17,12 +17,22 @@ switch (state) {
 		// makes zombie face player at all times
 	
 		// now we actually need to move towards the player
+		var direction_facing = image_xscale;
 		var distance_to_player = point_distance(x, y, o_player.x, o_player.y);
 		
-		if distance_to_player > 42 // change # to variable later
-		{
+		if distance_to_player <= attack_range {
+			state = "attack";
+		} else {
 			//move towards the player
-			move_and_collide(image_xscale * .7, 0)
+			move_and_collide(direction_facing * chase_speed, 0);
 		}
+		#endregion
+		break;
+		
+	case "attack":
+		#region Attack State
+		set_state_sprite(s_skeleton_attack, attack_speed, 0);
+		
+		#endregion
 		break;
 }
