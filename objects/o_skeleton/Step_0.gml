@@ -33,6 +33,10 @@ switch (state) {
 		#region Attack State
 		set_state_sprite(s_skeleton_attack, attack_speed, 0);
 		
+		if animation_end() {
+			state = "chase";
+		}
+		
 		#endregion
 		break;
 }

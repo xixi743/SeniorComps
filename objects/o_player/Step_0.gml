@@ -104,6 +104,10 @@ switch (state)
 		// i do not want my character to move during attack, so I will leave it
 		// wihout the changes to hspeed_ / x
 		
+		if animation_end() {
+			state = "move";
+		}
+		
 		#endregion
 		break;
 }
