@@ -1,9 +1,13 @@
 ///@arg sprite
 ///@arg speed
-///@arg image_index
+///@arg index
 
-if sprite_index != argument0 {
-	sprite_index = argument0;
-	image_speed = argument1;
-	image_index = argument2;
+var new_sprite = argument0;
+var new_speed = argument1;
+var new_index = argument2;
+
+if sprite_index != new_sprite {
+	sprite_index = new_sprite;
+	image_speed = new_speed;
+	image_index = new_index;
 }
