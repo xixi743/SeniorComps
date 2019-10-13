@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "66c69a71-166a-4c6f-845a-2dcae659bed1",
+            "Value": {
+                "id": "72c01c6a-e41e-4b49-8805-fcc72626f0ee",
+                "resourcePath": "sprites\\s_player_attack_mask\\s_player_attack_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7409409e-f369-4720-868e-f811cb94c7d3",
             "Value": {
                 "id": "f9dd239e-4e97-4aea-b893-8586bfbd3bea",
@@ -284,6 +292,14 @@
                 "id": "fda50c66-f877-4ef9-b22d-63fb2ac72aab",
                 "resourcePath": "scripts\\animation_hit_frame_range\\animation_hit_frame_range.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a675868c-2d19-4e30-8298-5566ca3ad31f",
+            "Value": {
+                "id": "d6fcc605-7e0f-4a68-939d-5ef1d7081bb2",
+                "resourcePath": "sprites\\s_skeleton_attack_mask\\s_skeleton_attack_mask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
