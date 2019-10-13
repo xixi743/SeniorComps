@@ -112,4 +112,9 @@ switch (state)
 		
 		#endregion
 		break;
+		
+	default:
+		show_debug_message("State " + state +" does not exist");
+		state = "move";
+		break;
 }

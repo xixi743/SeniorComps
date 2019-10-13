@@ -12,4 +12,6 @@ other.hp -= damage;
 ds_list_add(hit_objects, other);
 
 show_debug_message(other.hp);
-show_debug_message(hit_objects);
+
+other.state = "knockback";
+other.knockback_speed = knockback * image_xscale;
