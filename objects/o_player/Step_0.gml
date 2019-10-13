@@ -103,12 +103,20 @@ switch (state)
 		// wihout the changes to hspeed_ / x
 		
 		if animation_hit_frame(2) {
-			create_hitbox(x, y, self, s_player_attack_mask, 4, 4, 5, image_xscale);
+			create_hitbox(x, y, self, s_player_attack_mask, 3, 4, 5, image_xscale);
 		}
 		
 		if animation_end() {
 			state = "move";
 		}
+		
+		#endregion
+		break;
+		
+	case "knockback":
+		#region Knockback State
+		
+		knockback_state(s_player_hurt, "move");
 		
 		#endregion
 		break;

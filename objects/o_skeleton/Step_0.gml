@@ -34,7 +34,7 @@ switch (state) {
 		set_state_sprite(s_skeleton_attack, attack_speed, 0);
 		
 		if animation_hit_frame(7) {
-			create_hitbox(x, y, self, s_skeleton_attack_mask, 4, 4, 10, image_xscale);
+			create_hitbox(x, y, self, s_skeleton_attack_mask, 3, 4, 10, image_xscale);
 		} // RIPPPP realized that I need to create new sprites soley contianing
 		// the pixels for the attack so that other parts of the sprite don't become
 		// part of the hit box
@@ -50,18 +50,7 @@ switch (state) {
 		#region Knockback State
 
 		// enemy keeps on attacking even after hit without this state
-		set_state_sprite(s_skeleton_hit, .8, 0);
-		image_xscale = -sign(knockback_speed);
-		image_xscale = image_xscale * 3;
-		move_and_collide(knockback_speed, 0);
-		// add friction, rather than sliding across the screen at a constant pace
-		knockback_speed = approach(knockback_speed, 0, 0.7);
-		if knockback_speed == 0 {
-			if animation_end {
-				knockback_speed = 0;
-				state = "chase";
-			}
-		}
+		knockback_state(s_skeleton_hit, "chase");
 		
 		#endregion
 		break;
