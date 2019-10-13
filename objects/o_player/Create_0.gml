@@ -1,11 +1,13 @@
 /// @description Create the variables
 
+event_inherited();
+	// runs the create event of the parent
+
 state = "move";
 
 // Dependencies
 input = instance_create_layer(0, 0, "Instances", o_input);
 	// giving us access to our input object
-
 
 // Image speeds
 image_speed = 0;

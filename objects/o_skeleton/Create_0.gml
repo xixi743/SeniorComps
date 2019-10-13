@@ -1,3 +1,5 @@
+event_inherited();
+
 state = "chase";
 
 chase_speed = .7;

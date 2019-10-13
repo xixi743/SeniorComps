@@ -34,7 +34,7 @@ switch (state) {
 		set_state_sprite(s_skeleton_attack, attack_speed, 0);
 		
 		if animation_hit_frame(7) {
-			create_hitbox(x, y, self, s_skeleton_attack_mask, 4, 4, 1, image_xscale);
+			create_hitbox(x, y, self, s_skeleton_attack_mask, 4, 4, 10, image_xscale);
 		} // RIPPPP realized that I need to create new sprites soley contianing
 		// the pixels for the attack so that other parts of the sprite don't become
 		// part of the hit box
