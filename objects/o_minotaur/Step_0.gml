@@ -25,7 +25,9 @@ switch (state) {
 		var direction_facing = image_xscale;
 		var distance_to_player = point_distance(x, y, o_player.x, o_player.y);
 		
-		if (distance_to_player > attack_range && distance_to_player < idle_range) {
+		if (distance_to_player < attack_range) {
+			state = "attack";
+		} else if (distance_to_player > attack_range && distance_to_player < idle_range) {
 				state = "taunt";
 		}
 		#endregion
@@ -89,7 +91,7 @@ switch (state) {
 		
 	case "attack2":
 		#region Attack 2 State
-		set_state_sprite(s_minotaur_attack2, attack_speed,0);
+		set_state_sprite(s_minotaur_attack2, attack_speed, 0);
 		
 		if animation_hit_frame(1) {
 			create_hitbox(x,y, self, s_minotaur_attack2_mask, 3, 4, 10, image_xscale);
@@ -134,6 +136,18 @@ switch (state) {
 				knockback_speed = 0;
 				state = "wait";
 			}
+		}
+		
+		#endregion
+		break;
+		
+	case "death":
+		#region Death State
+		
+		set_state_sprite(s_minotaur_death, 0.8, 0)
+		
+		if animation_end() {
+			instance_destroy();
 		}
 		
 		#endregion

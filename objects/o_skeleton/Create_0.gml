@@ -9,3 +9,5 @@ attack_range = 80;
 // Physics and movement
 gravity_ = .7;
 vspeed_ = 0;
+
+death_sprite = s_skeleton_dead;

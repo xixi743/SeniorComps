@@ -72,6 +72,18 @@ switch (state) {
 		#endregion
 		break;
 		
+	case "death":
+		#region Death State
+		
+		set_state_sprite(s_skeleton_dead, 0.8, 0)
+		
+		if animation_end() {
+			instance_destroy();
+		}
+		
+		#endregion
+		break;
+		
 	default:
 		show_debug_message("State " + state +" does not exist");
 		state = "chase";

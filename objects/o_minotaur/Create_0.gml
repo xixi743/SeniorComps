@@ -12,3 +12,5 @@ knockback = 4;
 // Physics and movement
 gravity_ = .7;
 vspeed_ = 0;
+
+death_sprite = s_minotaur_damage2;
