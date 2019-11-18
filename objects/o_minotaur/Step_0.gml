@@ -1,3 +1,19 @@
+// if in the air, apply gravity
+// checking if there is anything one block below the player
+if !place_meeting(x, y+1, o_solid) {
+	vspeed_ += gravity_;
+			
+}
+
+if place_meeting(x, y+vspeed_, o_solid) {
+	while !place_meeting(x, y+sign(vspeed_), o_solid) {
+		y += sign(vspeed_);
+	}
+	vspeed_ = 0;
+}
+y += vspeed_;
+
+
 switch (state) {
 	
 	case "wait":
