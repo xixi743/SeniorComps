@@ -4,7 +4,7 @@ event_inherited();
 	// runs the create event of the parent
 
 state = "move";
-hp = 100000;
+hp = 10;
 max_hp = hp;
 
 // Dependencies

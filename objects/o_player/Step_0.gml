@@ -121,6 +121,19 @@ switch (state)
 		#endregion
 		break;
 		
+		
+	case "death":
+		#region Death State
+		
+		set_state_sprite(s_player_death, 0.5, 0)
+		
+		if animation_end() {
+			instance_destroy();
+		}
+		
+		#endregion
+		break;
+		
 	default:
 		show_debug_message("State " + state +" does not exist");
 		state = "move";
