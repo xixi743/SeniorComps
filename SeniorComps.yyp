@@ -55,10 +55,26 @@
             }
         },
         {
+            "Key": "0fb272d6-eaf2-4e47-948e-58a9e8fd711d",
+            "Value": {
+                "id": "286aef0f-ab06-4d76-9d5d-ed31e8508c8f",
+                "resourcePath": "sprites\\s_minotaur_death\\s_minotaur_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1589493f-5740-43e6-8c90-057cd40e6d80",
             "Value": {
                 "id": "5c191d55-105b-47f2-bfae-5a0ca002c9db",
                 "resourcePath": "sprites\\s_player_attack\\s_player_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "158dfe88-88e9-4531-a753-6191c563c38b",
+            "Value": {
+                "id": "f3984e66-f59e-451f-ac4a-ef790eb9749e",
+                "resourcePath": "sprites\\s_minotaur_attack3_mask\\s_minotaur_attack3_mask.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -68,6 +84,14 @@
                 "id": "f5827253-f399-4597-9901-cfbdf3f15716",
                 "resourcePath": "sprites\\s_solid\\s_solid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1ec69bd3-ef79-4f33-8acd-42ea6ecbd870",
+            "Value": {
+                "id": "b6a6f1e3-f595-40f5-998b-fa051a2f0569",
+                "resourcePath": "views\\1ec69bd3-ef79-4f33-8acd-42ea6ecbd870.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -143,6 +167,22 @@
             }
         },
         {
+            "Key": "470329de-c2be-4948-999f-61cc27ed4cae",
+            "Value": {
+                "id": "4dd45c7e-fd4c-4284-a0db-9e36c6160164",
+                "resourcePath": "sprites\\s_minotaur_damage2\\s_minotaur_damage2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "49370df7-17fc-447f-9030-d43213ece16d",
+            "Value": {
+                "id": "7e0a1344-a551-40b6-baca-7e1483ba2ba7",
+                "resourcePath": "sprites\\s_minotaur_move\\s_minotaur_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e763b2f-0d43-4043-91ac-2ab71c1b6cfb",
             "Value": {
                 "id": "9cb4f40c-62e6-4a61-a992-6fdef2383a2f",
@@ -199,6 +239,22 @@
             }
         },
         {
+            "Key": "6466c51c-afa0-4a52-80a2-0a4ec1393059",
+            "Value": {
+                "id": "ffba681b-db09-452e-a361-e1c05fdd5eb6",
+                "resourcePath": "views\\6466c51c-afa0-4a52-80a2-0a4ec1393059.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "659f5c5a-c0ce-4d2a-a1ab-fab4910e0e7c",
+            "Value": {
+                "id": "39b63e6f-917c-47ed-a4fe-63d942b31d9d",
+                "resourcePath": "sprites\\s_minotaur_taunt\\s_minotaur_taunt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "662266cd-7ff1-4795-8357-68e165a2bd38",
             "Value": {
                 "id": "dcdd62de-da0d-4f57-a611-636315a65c43",
@@ -212,6 +268,14 @@
                 "id": "72c01c6a-e41e-4b49-8805-fcc72626f0ee",
                 "resourcePath": "sprites\\s_player_attack_mask\\s_player_attack_mask.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6763f393-5b92-47ad-9f9e-20430a9a3604",
+            "Value": {
+                "id": "ae745dc9-2956-4907-9958-aca68798d0f2",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -236,6 +300,14 @@
                 "id": "d3a0ac13-8589-4726-8bea-5fce24869763",
                 "resourcePath": "scripts\\knockback_state\\knockback_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7d7266e5-2d85-43d9-8c2a-a4bc2bd83fb1",
+            "Value": {
+                "id": "646382f7-cb4b-4541-adbc-a365e0aa65e3",
+                "resourcePath": "sprites\\s_minotaur_attack1\\s_minotaur_attack1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -268,6 +340,38 @@
                 "id": "3465cdd4-2eae-4c2a-84cb-4e7cc0d2eef2",
                 "resourcePath": "scripts\\set_state_sprite\\set_state_sprite.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "91d16719-6374-4923-b332-2a2dad28aa07",
+            "Value": {
+                "id": "e0b359f2-e089-4788-92eb-56817c15727d",
+                "resourcePath": "sprites\\s_minotaur_damage1\\s_minotaur_damage1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97526e85-a9b3-4a7c-b7d2-b77c6b88e76b",
+            "Value": {
+                "id": "1bfc910d-a7e4-4a58-8c55-550b137dedd2",
+                "resourcePath": "sprites\\sprite23\\sprite23.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97b8d288-b071-4eb6-a865-48e64c554056",
+            "Value": {
+                "id": "97080d70-f956-4d6e-8265-0a99698ee7d1",
+                "resourcePath": "sprites\\s_minotaur_attack3\\s_minotaur_attack3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "987fa037-135a-4faa-983e-cbdd90b4d2ba",
+            "Value": {
+                "id": "331dd8e9-d82b-44d8-8185-2966292551cd",
+                "resourcePath": "sprites\\s_minotaur_attack1_mask\\s_minotaur_attack1_mask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +551,14 @@
             }
         },
         {
+            "Key": "d5dc06ab-86cf-4a43-8c69-c704a7b83e18",
+            "Value": {
+                "id": "71e39390-334c-49bd-a9c9-898208dc3a86",
+                "resourcePath": "sprites\\s_minotaur_attack2\\s_minotaur_attack2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d5e19b2c-5433-4eed-ae52-6ad5039fcd10",
             "Value": {
                 "id": "5c2ffc8a-32eb-4d63-a260-a1f0158965c2",
@@ -487,6 +599,14 @@
             }
         },
         {
+            "Key": "e55447c4-7c1e-438f-a86f-b639b892e010",
+            "Value": {
+                "id": "6a073a09-2b81-4b0d-a941-368f49d6140e",
+                "resourcePath": "objects\\o_minotaur\\o_minotaur.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e7897da3-b32a-485b-82f4-ae46ba4741ac",
             "Value": {
                 "id": "dd21a556-c3eb-4a7a-913d-d4e6b8284c15",
@@ -511,6 +631,14 @@
             }
         },
         {
+            "Key": "f79142e5-a6c0-4c24-b183-83a19fac3117",
+            "Value": {
+                "id": "6d3b5f2b-9107-4f72-b227-fdd1e2d22cbf",
+                "resourcePath": "sprites\\s_minotaur_idle\\s_minotaur_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f87d71cf-0a51-4b6d-9bce-1667a0718314",
             "Value": {
                 "id": "c52020db-4c1d-458c-ac3f-93f6c88af73d",
@@ -519,10 +647,26 @@
             }
         },
         {
+            "Key": "fc41d3d3-bfdc-4e05-9dc2-f2e499a458e0",
+            "Value": {
+                "id": "de893468-5389-4c9d-8e00-8eb5c63097c3",
+                "resourcePath": "sprites\\s_minotaur_attack2_mask\\s_minotaur_attack2_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fcaaaf6e-448e-4836-833d-b822fadb6ba0",
             "Value": {
                 "id": "be593bd8-7c67-402b-ad1e-81cd85d2669a",
                 "resourcePath": "sprites\\s_skeleton_attack\\s_skeleton_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fef07119-e1d1-454f-a989-0caaf44101d3",
+            "Value": {
+                "id": "76f0f429-1367-4341-8459-d800ccee03f2",
+                "resourcePath": "sprites\\s_minotaur_mask\\s_minotaur_mask.yy",
                 "resourceType": "GMSprite"
             }
         }

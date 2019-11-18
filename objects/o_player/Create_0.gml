@@ -4,6 +4,8 @@ event_inherited();
 	// runs the create event of the parent
 
 state = "move";
+hp = 100000;
+max_hp = hp;
 
 // Dependencies
 input = instance_create_layer(0, 0, "Instances", o_input);
@@ -22,6 +24,6 @@ vspeed_ = 0;
 gravity_ = .7;
 acceleration_ = 1.5;
 friction_ = .3;
-jump_height_ = -10;
+jump_height_ = -12;
 run_speed_mvmt = 4;
 
