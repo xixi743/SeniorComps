@@ -1,3 +1,3 @@
 /// @description Restart Game on R
 
-game_restart();
+slide_transition(TRANS_MODE.RESTART);

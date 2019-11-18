@@ -27,3 +27,5 @@ friction_ = .3;
 jump_height_ = -12;
 run_speed_mvmt = 4;
 
+hascontrol = true;
+
