@@ -1,4 +1,6 @@
-/// @description colliding with skeleton
+/// @description colliding with lifeforms
+
+// could put screenshake here, but it would prevent customizablility for enemies
 
 if creator = noone or creator == other or ds_list_find_index(hit_objects, other) != -1 {
 	exit;	

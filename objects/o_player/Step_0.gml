@@ -105,6 +105,7 @@ if (hascontrol) {
 		
 			if animation_hit_frame(2) {
 				create_hitbox(x, y, self, s_player_attack_mask, 3, 4, 5, image_xscale);
+				screen_shake(2,5);
 			}
 		
 			if animation_end() {

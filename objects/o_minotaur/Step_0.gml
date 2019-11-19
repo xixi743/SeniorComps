@@ -80,6 +80,7 @@ switch (state) {
 		
 		if animation_hit_frame(2) {
 			create_hitbox(x, y, self, s_minotaur_attack1_mask, 3, 4, 10, image_xscale);
+			screen_shake(5,8);
 		}
 		
 		if animation_end() {
@@ -95,6 +96,7 @@ switch (state) {
 		
 		if animation_hit_frame(1) {
 			create_hitbox(x,y, self, s_minotaur_attack2_mask, 3, 4, 10, image_xscale);
+			screen_shake(3,5);
 		}
 			
 		if animation_end() {
@@ -110,6 +112,7 @@ switch (state) {
 		
 		if animation_hit_frame(3) {
 			create_hitbox(x,y, self, s_minotaur_attack3_mask, 3, 4, 10, image_xscale);
+			screen_shake(8,10);
 		}
 		
 		if animation_end() {
