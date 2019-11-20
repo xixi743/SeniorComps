@@ -2,7 +2,7 @@
 
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
-jump = keyboard_check(vk_up);
+jump = keyboard_check_pressed(vk_up);
 attack = keyboard_check_pressed(vk_space);
 // if don't want continuous attacking here, change to keyboard_check_pressed
 

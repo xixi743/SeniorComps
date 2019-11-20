@@ -1,10 +1,15 @@
 /// @description Create the variables
 
+audio_stop_sound(snd_for_me);
+if !audio_is_playing(snd_title_theme) {
+	audio_play_sound(snd_title_theme, 2, true);
+}
+
 event_inherited();
 	// runs the create event of the parent
 
 state = "move";
-hp = 100;
+hp = 1;
 max_hp = hp;
 
 // Dependencies

@@ -1,6 +1,8 @@
 /// @description GUI/Vars/Menu setup
 #macro SAVEFILE "Save.sav" //a txt file that writes the name of the room we are in
 
+audio_play_sound(snd_for_me, 5, true);
+
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 gui_margin = 32;

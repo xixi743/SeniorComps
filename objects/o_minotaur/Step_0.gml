@@ -92,7 +92,7 @@ switch (state) {
 		
 	case "attack2":
 		#region Attack 2 State
-		set_state_sprite(s_minotaur_attack2, attack_speed, 0);
+		set_state_sprite(s_minotaur_attack2, attack_speed, 0);	
 		
 		if animation_hit_frame(1) {
 			create_hitbox(x,y, self, s_minotaur_attack2_mask, 3, 4, 10, image_xscale);
@@ -148,6 +148,10 @@ switch (state) {
 		#region Death State
 		
 		set_state_sprite(s_minotaur_death, 0.8, 0)
+		
+		if animation_start() {
+			audio_play_sound(snd_minotaur_death, 5, false);
+		}
 		
 		if animation_end() {
 			instance_destroy();

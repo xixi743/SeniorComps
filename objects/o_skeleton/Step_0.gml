@@ -50,6 +50,10 @@ switch (state) {
 		#region Attack State
 		set_state_sprite(s_skeleton_attack, attack_speed, 0);
 		
+		//if animation_start() {
+		//	audio_play_sound(snd_animal_melee, 5, false);
+		//}
+		
 		if animation_hit_frame(7) {
 			create_hitbox(x, y, self, s_skeleton_attack_mask, 3, 4, 10, image_xscale);
 			screen_shake(2,5);
@@ -76,7 +80,11 @@ switch (state) {
 	case "death":
 		#region Death State
 		
-		set_state_sprite(s_skeleton_dead, 0.8, 0)
+		set_state_sprite(s_skeleton_dead, 0.8, 0);
+		
+		if animation_start() {
+			audio_play_sound(snd_enemy_death, 5, false);
+		}
 		
 		if animation_end() {
 			instance_destroy();
