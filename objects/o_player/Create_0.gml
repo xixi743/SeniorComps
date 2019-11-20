@@ -29,7 +29,7 @@ vspeed_ = 0;
 gravity_ = .7;
 acceleration_ = 1.5;
 friction_ = .3;
-jump_height_ = -12;
+jump_height_ = -14;
 run_speed_mvmt = 4;
 
 hascontrol = true;
