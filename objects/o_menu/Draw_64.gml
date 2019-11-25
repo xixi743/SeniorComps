@@ -1,7 +1,7 @@
 /// @description Draw Menu
 // draw stuff on the screen that's not based on the camera
 
-draw_set_font(f_menu);
+draw_set_font(menu_font);
 draw_set_halign(fa_right); //aligned right to left
 draw_set_valign(fa_bottom);
 

@@ -53,6 +53,7 @@ switch (state) {
 		if !instance_exists(o_player) break;
 		
 		image_xscale = (sign(o_player.x - x))*2;
+		
 		// sign function returns -1, 0, or 1
 		// returns -1 if if value is negative
 		// if values are the same, then it returns 0
@@ -71,6 +72,7 @@ switch (state) {
 			//move towards the player
 			move_and_collide(direction_facing * chase_speed, 0);
 		}
+		
 		#endregion
 		break;
 		
