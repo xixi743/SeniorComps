@@ -11,6 +11,8 @@ event_inherited();
 state = "move";
 hp = 100;
 max_hp = hp;
+kills = 0;
+levels = 1;
 
 // Dependencies
 input = instance_create_layer(0, 0, "Instances", o_input);

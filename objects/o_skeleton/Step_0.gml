@@ -11,7 +11,9 @@ if place_meeting(x, y+vspeed_, o_solid) {
 	}
 	vspeed_ = 0;
 }
+
 y += vspeed_;
+
 
 
 switch (state) {

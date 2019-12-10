@@ -7,9 +7,10 @@
 // tallest enemy height (so it doesn't bump into platforms
 // room size
 
-player_jump_height_ = 14;
+player_jump_height = 100;
 player_height = 56;
 player_jump_distance_x = 210;
+minimum_platform_distance = 20;
 tallest_enemy_height = 125;
 floor_start_height = room_height - (16*4);
 wall_width = 64; //16*4
@@ -45,12 +46,16 @@ x = wall_width+ gap_from_wall;
 	// when they are too close to the walls
 	if x >= 64 and x <= rm_width - wall_width {
 		if y <= floor_start_height {
-			instance_create_layer (x, y, "Instances", obj_platform_320x16);
-			x += (platform320_length+player_jump_distance_x);
+			instance_create_layer (x, y, "Instances", obj_platform_160x16);
+			x += (platform160_length+random_range(minimum_platform_distance,player_jump_distance_x));
 			instance_create_layer (x, y, "Instances", obj_platform_48x16);
-			x+= (platform48_length+player_jump_distance_x);
-			y-= player_height;
+			x+= (platform48_length+random_range(minimum_platform_distance,player_jump_distance_x));
+			y-= random_range(player_height, player_jump_height);
 			instance_create_layer (x, y, "Instances", obj_platform_80x16);
+			x+= (platform80_length+random_range(minimum_platform_distance, player_jump_distance_x));
+			y+= random_range(player_height, player_jump_height);
+			
+			stairs_pattern(x, y);
 			
 		}
 	}
