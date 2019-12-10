@@ -1,4 +1,7 @@
 if (hascontrol) {
+	x=clamp(x, 41, room_width);
+y=clamp(y, 0, room_height);
+	
 	switch (state)
 	{
 		case "move":

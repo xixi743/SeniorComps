@@ -153,6 +153,9 @@ switch (state) {
 		
 		if animation_start() {
 			audio_play_sound(snd_minotaur_death, 5, false);
+			repeat (experience) {
+				instance_create_layer(x+random_range(-4,4), y+random_range(-4,4), "Effects", o_experience);
+			}
 		}
 		
 		if animation_end() {

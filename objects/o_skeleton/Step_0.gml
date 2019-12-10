@@ -1,8 +1,7 @@
 // if in the air, apply gravity
 // checking if there is anything one block below the player
 if !place_meeting(x, y+1, o_solid) {
-	vspeed_ += gravity_;
-			
+	vspeed_ += gravity_;	
 }
 
 if place_meeting(x, y+vspeed_, o_solid) {
@@ -11,10 +10,7 @@ if place_meeting(x, y+vspeed_, o_solid) {
 	}
 	vspeed_ = 0;
 }
-
 y += vspeed_;
-
-
 
 switch (state) {
 	case "chase":
@@ -86,6 +82,9 @@ switch (state) {
 		
 		if animation_start() {
 			audio_play_sound(snd_enemy_death, 5, false);
+			repeat (experience) {
+				instance_create_layer(x+random_range(-4,4), y+random_range(-4,4), "Effects", o_experience);
+			}
 		}
 		
 		if animation_end() {
