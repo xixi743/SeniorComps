@@ -88,6 +88,7 @@ switch (state) {
 		}
 		
 		if animation_end() {
+			o_player.kills += 1;
 			instance_destroy();
 		}
 		

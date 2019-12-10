@@ -578,7 +578,7 @@
             "Key": "70e151d5-c165-4e69-9663-dcc81a7dafe6",
             "Value": {
                 "id": "3f8dcd12-fd84-436a-9ead-b477e9367827",
-                "resourcePath": "sprites\\Jump_Instructions\\Jump_Instructions.yy",
+                "resourcePath": "sprites\\s_jump_instructions\\s_jump_instructions.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1387,6 +1387,14 @@
             "Value": {
                 "id": "83ab3291-f267-4ae9-a600-a3e59e05ec9d",
                 "resourcePath": "sprites\\s_bat_hurt\\s_bat_hurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f9198665-a29c-4270-8089-2217dcf1ad57",
+            "Value": {
+                "id": "4af59bd4-c012-42ff-8bc0-34a5ae1db4b9",
+                "resourcePath": "sprites\\s_attack_instructions\\s_attack_instructions.yy",
                 "resourceType": "GMSprite"
             }
         },

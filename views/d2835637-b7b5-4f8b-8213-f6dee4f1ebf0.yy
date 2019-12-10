@@ -8,7 +8,8 @@
         "f13729d8-04ad-497a-9503-686bc6a50818",
         "961d9a26-4ff5-413b-bb33-d27ec9d9bf28",
         "77ae3e91-76e5-4a69-8064-d95f6b24071d",
-        "70e151d5-c165-4e69-9663-dcc81a7dafe6"
+        "70e151d5-c165-4e69-9663-dcc81a7dafe6",
+        "f9198665-a29c-4270-8089-2217dcf1ad57"
     ],
     "filterType": "GMSprite",
     "folderName": "Text",
