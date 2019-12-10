@@ -158,12 +158,7 @@ y=clamp(y, 0, room_height);
 		
 			if animation_end() {
 				instance_destroy();
-				//slide_transition(TRANS_MODE.GOTO,room);
-				// I want to be able to restart the room after the player dies
-				// but I can't seem to get alarm to work properly...
-				// I just wanted to wait until after the lose song is done playing
-				// by waiting 60 frames with an alarm, but I can't get the slid_transition
-				// function to work in the alarm page.... hmmmmmmmmmmm
+				slide_transition(TRANS_MODE.GOTO,7);
 			}
 		
 			#endregion

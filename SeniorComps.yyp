@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1d4fabd0-f66a-46b4-8544-97e774bac922",
+            "Value": {
+                "id": "04c7619a-4de3-4cd9-b6f0-58d342e9bd1d",
+                "resourcePath": "sprites\\s_fruit\\s_fruit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ec69bd3-ef79-4f33-8acd-42ea6ecbd870",
             "Value": {
                 "id": "b6a6f1e3-f595-40f5-998b-fa051a2f0569",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "31e1025b-39d2-4cd3-becb-e8fb63e8490b",
+            "Value": {
+                "id": "1eeecb0b-484a-4ee6-9273-bad1421c2146",
+                "resourcePath": "sprites\\s_fruit_instructions\\s_fruit_instructions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33923470-1ac8-42e5-9c24-d13cd9ea1676",
             "Value": {
                 "id": "fab6a10c-36c0-4bdc-8bd5-1ca47189b5d2",
@@ -348,6 +364,14 @@
                 "id": "ce37204d-4033-48e5-b74d-75af3c63ad2d",
                 "resourcePath": "sounds\\The_Way_You_Love\\The_Way_You_Love.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "481c15cd-33f9-4da2-9158-00b9aa1f3dbe",
+            "Value": {
+                "id": "2cfec2db-ee1d-434f-a26a-a011109b93ce",
+                "resourcePath": "objects\\o_end_menu\\o_end_menu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -492,6 +516,22 @@
                 "id": "e8c71c45-b7a6-431c-927e-bea310e0cf9c",
                 "resourcePath": "sounds\\snd_coin\\snd_coin.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "62f62993-a148-4143-a809-815cddd535b7",
+            "Value": {
+                "id": "3fe5973d-f5b7-4cd9-9b72-d1a37a8fe92f",
+                "resourcePath": "sprites\\s_water_is_death\\s_water_is_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "64106448-e9a5-4978-8157-53fd1741c127",
+            "Value": {
+                "id": "c8f3c43e-e71a-4bf1-86e7-920441951dad",
+                "resourcePath": "sprites\\s_kill_enemies_instructions\\s_kill_enemies_instructions.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -652,6 +692,14 @@
                 "id": "646382f7-cb4b-4541-adbc-a365e0aa65e3",
                 "resourcePath": "sprites\\s_minotaur_attack1\\s_minotaur_attack1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7f9baa09-8ee2-480c-a8f5-df040e7f06d8",
+            "Value": {
+                "id": "554bc87c-53df-4313-b4f6-819b1c2917ae",
+                "resourcePath": "rooms\\r_fruit\\r_fruit.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -850,7 +898,7 @@
             "Key": "9ca2cb20-5fa2-4e8e-88bd-fc5aab2bd880",
             "Value": {
                 "id": "f3350263-4e2d-4864-a3b5-f6e800f2a6a9",
-                "resourcePath": "rooms\\r_one\\r_one.yy",
+                "resourcePath": "rooms\\r_left_and_right\\r_left_and_right.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -916,6 +964,22 @@
                 "id": "5b0f1e61-2a08-4e15-97b4-c08e5906dab1",
                 "resourcePath": "scripts\\animation_start\\animation_start.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a53598e7-c2c4-4805-a9c2-b21dc8b17d96",
+            "Value": {
+                "id": "93733e77-c286-49b1-bb4b-8a996e3c9217",
+                "resourcePath": "rooms\\r_gameover\\r_gameover.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a54de79a-a6e1-489d-a24a-dfbb57c66d44",
+            "Value": {
+                "id": "4dd96505-0c2e-4018-b52e-e4510605e5b2",
+                "resourcePath": "objects\\o_fruit\\o_fruit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1042,7 +1106,7 @@
             "Key": "b8d22841-90a1-45ab-a703-28f0bdb09dff",
             "Value": {
                 "id": "e7719df1-ccea-4ba7-a87f-8dedc3fba4ae",
-                "resourcePath": "rooms\\r_three\\r_three.yy",
+                "resourcePath": "rooms\\r_attack_with_space\\r_attack_with_space.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1130,7 +1194,7 @@
             "Key": "c675b57a-096a-46fb-94dc-c9fd7a91cf71",
             "Value": {
                 "id": "e2128c17-1295-48d9-8f32-45c129a9325e",
-                "resourcePath": "rooms\\r_two\\r_two.yy",
+                "resourcePath": "rooms\\r_jump_and_water\\r_jump_and_water.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1324,6 +1388,14 @@
                 "id": "dd21a556-c3eb-4a7a-913d-d4e6b8284c15",
                 "resourcePath": "views\\e7897da3-b32a-485b-82f4-ae46ba4741ac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebdca691-a968-457c-809e-154c484aaf0c",
+            "Value": {
+                "id": "34a009e9-4a7d-4c26-9a6f-cdbf4e48fbc6",
+                "resourcePath": "sprites\\s_cant_swim\\s_cant_swim.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,6 +1,6 @@
 
 {
-    "name": "r_one",
+    "name": "r_left_and_right",
     "id": "9ca2cb20-5fa2-4e8e-88bd-fc5aab2bd880",
     "creationCodeFile": "",
     "inheritCode": false,

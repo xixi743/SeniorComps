@@ -1,6 +1,6 @@
 
 {
-    "name": "r_two",
+    "name": "r_jump_and_water",
     "id": "c675b57a-096a-46fb-94dc-c9fd7a91cf71",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -184,7 +184,9 @@
             "name": "Instructions",
             "id": "cdb5787a-30da-42d2-bd2e-f6a208080b03",
             "assets": [
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_5F5F4B2","id": "d45d4b05-879b-444a-9608-661c55d95a20","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 2,"scaleY": 2,"mvc": "1.0","spriteId": "70e151d5-c165-4e69-9663-dcc81a7dafe6","userdefined_animFPS": false,"x": 144,"y": 96}
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_5F5F4B2","id": "d45d4b05-879b-444a-9608-661c55d95a20","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 2,"scaleY": 2,"mvc": "1.0","spriteId": "70e151d5-c165-4e69-9663-dcc81a7dafe6","userdefined_animFPS": false,"x": 144,"y": 112},
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_546976AE","id": "1b818a08-69cf-4c28-9faa-f4e5892a466a","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 2,"scaleY": 2,"mvc": "1.0","spriteId": "62f62993-a148-4143-a809-815cddd535b7","userdefined_animFPS": false,"x": 384,"y": 112},
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_1BD90BA2","id": "433297c0-4f62-4331-8199-09bb6e8266d8","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "ebdca691-a968-457c-809e-154c484aaf0c","userdefined_animFPS": false,"x": 544,"y": 272}
             ],
             "depth": 300,
             "grid_x": 16,
