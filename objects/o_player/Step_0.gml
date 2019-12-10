@@ -1,3 +1,20 @@
+show_debug_message(room);
+
+if room == 1 {
+	first_instance = true;
+}
+
+if first_instance = true {
+	global.kills = 0;
+	global.level = 1;
+	global.experience = 0;
+	global.max_experience = 10;
+	global.strength = 25;
+	global.hp = 100;
+	global.max_hp = hp;
+	first_instance = false;
+}	
+
 if (hascontrol) {
 	x=clamp(x, 41, room_width);
 y=clamp(y, 0, room_height);

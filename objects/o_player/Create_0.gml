@@ -9,13 +9,7 @@ event_inherited();
 	// runs the create event of the parent
 
 state = "move";
-hp = 100;
-max_hp = hp;
-kills = 0;
-level = 1;
-experience = 0;
-max_experience = 10;
-strength = 25;
+first_instance= false;
 
 // Dependencies
 input = instance_create_layer(0, 0, "Instances", o_input);

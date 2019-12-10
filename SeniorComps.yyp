@@ -354,7 +354,7 @@
             "Key": "491001fa-0fe5-442e-ba1f-a7207fa16ca3",
             "Value": {
                 "id": "c1c0ab5c-8383-47e8-98dc-72f7ee029b17",
-                "resourcePath": "rooms\\r_four\\r_four.yy",
+                "resourcePath": "rooms\\r_five\\r_five.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1042,7 +1042,7 @@
             "Key": "b8d22841-90a1-45ab-a703-28f0bdb09dff",
             "Value": {
                 "id": "e7719df1-ccea-4ba7-a87f-8dedc3fba4ae",
-                "resourcePath": "rooms\\r_3\\r_3.yy",
+                "resourcePath": "rooms\\r_three\\r_three.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1114,7 +1114,7 @@
             "Key": "c36986a5-7854-4dc3-83b7-7117cea710c1",
             "Value": {
                 "id": "a2e51d3e-5657-49de-8b59-11cca9db4a9d",
-                "resourcePath": "rooms\\r_three\\r_three.yy",
+                "resourcePath": "rooms\\r_four\\r_four.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1223,14 +1223,6 @@
             }
         },
         {
-            "Key": "d653830e-3209-4a1d-b563-4cf379a417fd",
-            "Value": {
-                "id": "8ca60098-71c4-42e0-bfb5-46ebde96ffa4",
-                "resourcePath": "objects\\o_healthbar\\o_healthbar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d76fb693-c8f4-4af1-af6a-2b800e2902c2",
             "Value": {
                 "id": "f2643416-c45f-4fe1-9dd9-92317cca886e",
@@ -1332,6 +1324,14 @@
                 "id": "dd21a556-c3eb-4a7a-913d-d4e6b8284c15",
                 "resourcePath": "views\\e7897da3-b32a-485b-82f4-ae46ba4741ac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eea55fff-c546-4e1e-b063-75c305cc7b9b",
+            "Value": {
+                "id": "67256fdf-a2ee-407e-a24b-b04e29ba7d6e",
+                "resourcePath": "fonts\\f_hud\\f_hud.yy",
+                "resourceType": "GMFont"
             }
         },
         {
