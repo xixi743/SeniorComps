@@ -1,11 +1,4 @@
-///@arg x
-///@arg y
-
-var pro_gen_x = argument0;
-var pro_gen_y = argument1;
-
-pattern_start_x = pro_gen_x;
-pattern_start_y = pro_gen_y;
+pattern_start_x = x;
 
 times = random_range(3, 10);
 

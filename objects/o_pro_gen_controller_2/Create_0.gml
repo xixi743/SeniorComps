@@ -1,27 +1,4 @@
-/// @description variables for procedural gener
-
-//Good variables to have
-
-// player jump height
-// player jump distance (280 estimate)
-// tallest enemy height (so it doesn't bump into platforms
-// room size
-
-player_jump_height = 100;
-player_height = 56;
-player_jump_distance_x = 210;
-minimum_platform_distance = 20;
-tallest_enemy_height = 125;
-floor_start_height = room_height - (16*4);
-wall_width = 64; //16*4
-gap_from_wall = 75;
-platform48_length = 48;
-platform80_length = 80;
-platform160_length = 160;
-platform320_length = 320;
-
-rm_width = room_width;
-rm_height = room_height;
+event_inherited();
 
 // so we could try a semi-random generation method
 // where we do not generate blocks a certain amount from the bottom of the room
@@ -45,13 +22,13 @@ x = wall_width+ gap_from_wall;
 // when to stop generating platforms
 	// when they are too close to the walls
 	if x >= 64 and x <= rm_width - wall_width {
-		stairs_pattern(x, y);
+		stairs_pattern();
 	}
 	
 	if x >= 64 and x <= rm_width - wall_width {
-		doubled_pattern(x, y);
+		doubled_pattern();
 	}
 	
 	if x >= 64 and x <= rm_width - wall_width {
-		stairs_pattern(x, y);
+		stairs_pattern();
 	}
