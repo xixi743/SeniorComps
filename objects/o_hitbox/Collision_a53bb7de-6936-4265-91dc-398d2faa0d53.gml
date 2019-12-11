@@ -1,4 +1,4 @@
-/// @description colliding with enemies
+/// @description colliding with player
 
 // could put screenshake here, but it would prevent customizablility for enemies
 
@@ -10,7 +10,7 @@ if creator = noone or creator == other or ds_list_find_index(hit_objects, other)
 
 audio_play_sound(snd_hurt, 3, false);
 
-other.hp -= damage;
+global.hp -= damage;
 // deal damage to the other object
 
 ds_list_add(hit_objects, other);

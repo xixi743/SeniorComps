@@ -1314,7 +1314,7 @@
             "Key": "da16a318-e44a-4f5a-b4d5-71208e7a59cd",
             "Value": {
                 "id": "60f19806-9efe-46d8-8f5e-3f5173182ad8",
-                "resourcePath": "objects\\o_lifeform\\o_lifeform.yy",
+                "resourcePath": "objects\\o_enemies\\o_enemies.yy",
                 "resourceType": "GMObject"
             }
         },
