@@ -16,11 +16,11 @@ menu_committed = -1;
 menu_control = true; //whether or not we have control of the menu
 
 
-menu[2] = "Restart"; // more efficient to declare an array and start with the biggest variable
-menu[1] = "Continue";
-menu[0] = "Quit";
+end_menu[2] = "Restart"; // more efficient to declare an array and start with the biggest variable
+end_menu[1] = "Continue";
+end_menu[0] = "Quit";
 
-menu_items = array_length_1d(menu);
+menu_items = array_length_1d(end_menu);
 menu_cursor = 2;
 
 input = instance_create_layer(0, 0, "Instances", o_input);

@@ -1,4 +1,4 @@
-/// @description Draw Menu
+/// @description Draw End Menu
 // draw stuff on the screen that's not based on the camera
 
 draw_set_font(menu_font);
@@ -7,7 +7,7 @@ draw_set_valign(fa_bottom);
 
 for (var i = 0;i < menu_items; i++) {
 	var offset = 2;
-	var txt = menu[i];
+	var txt = end_menu[i];
 	if (menu_cursor == i) {
 		txt = string_insert("> ", txt, 0); //just to point at the option we have selected	
 		var col = c_white;
