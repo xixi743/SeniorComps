@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "496bb4fa-f224-44fb-96bd-888fa15945c9",
+            "Value": {
+                "id": "0b680b72-458f-4e90-86a1-45a6073865b7",
+                "resourcePath": "views\\496bb4fa-f224-44fb-96bd-888fa15945c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4e763b2f-0d43-4043-91ac-2ab71c1b6cfb",
             "Value": {
                 "id": "9cb4f40c-62e6-4a61-a992-6fdef2383a2f",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "5dea5c66-1095-43f9-9cf9-103dcf370864",
+            "Value": {
+                "id": "90433b64-16cd-43d7-bc3f-640e7f9f7681",
+                "resourcePath": "sprites\\s_kill_enemies_instructions\\s_kill_enemies_instructions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e6fbf62-7899-4b6e-bb3d-d172fe2b9c9e",
             "Value": {
                 "id": "5be9fd8a-d147-420b-b2ba-bd75d33a1c1d",
@@ -523,14 +539,6 @@
             "Value": {
                 "id": "3fe5973d-f5b7-4cd9-9b72-d1a37a8fe92f",
                 "resourcePath": "sprites\\s_water_is_death\\s_water_is_death.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "64106448-e9a5-4978-8157-53fd1741c127",
-            "Value": {
-                "id": "c8f3c43e-e71a-4bf1-86e7-920441951dad",
-                "resourcePath": "sprites\\s_kill_enemies_instructions\\s_kill_enemies_instructions.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1196,6 +1204,14 @@
                 "id": "e2128c17-1295-48d9-8f32-45c129a9325e",
                 "resourcePath": "rooms\\r_jump_and_water\\r_jump_and_water.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c7499fc6-eacc-4029-bffc-e97a3bff02f5",
+            "Value": {
+                "id": "ec0743d7-9ed5-4533-9759-f1ceb76e7275",
+                "resourcePath": "sprites\\s_thank_you\\s_thank_you.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

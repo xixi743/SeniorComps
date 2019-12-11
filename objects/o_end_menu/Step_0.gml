@@ -5,8 +5,6 @@ menu_x += (menu_x_target - menu_x)/ menu_speed; //slow down and come to a halt o
 
 if (menu_control)
 {
-
-	
 	if (input.menu_up) {
 		menu_cursor++;
 		audio_play_sound(snd_blip, 3, false);

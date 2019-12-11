@@ -11,8 +11,9 @@ if first_instance = true {
 	global.max_experience = 10;
 	global.strength = 25;
 	global.hp = 100;
-	global.max_hp = hp;
+	global.max_hp = 100;
 	first_instance = false;
+	instance_create_layer(10, 10, "GUI", o_hud);
 }	
 
 if (hascontrol) {

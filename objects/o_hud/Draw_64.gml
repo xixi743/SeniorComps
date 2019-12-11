@@ -11,11 +11,11 @@ var hp_width = 198;
 var hp_height = 6;
 
 if instance_exists(o_player) {
-	draw_hp = lerp(draw_hp, o_player.hp, 0.2);
+	draw_hp = lerp(draw_hp, global.hp, 0.2);
 	// draw_hp will approach player's hp by 10% every frame
-	draw_max_hp = o_player.max_hp;
+	draw_max_hp = global.max_hp;
 } else {
-	draw_hp = lerp (draw_hp, 0, 0.2);
+	draw_hp = lerp(draw_hp, 0, 0.2);
 }
 var hp_percent = draw_hp / draw_max_hp;
 
