@@ -1,4 +1,5 @@
 /// @description GUI/Vars/Menu setup
+audio_stop_all();
 
 audio_play_sound(snd_for_me, 5, true);
 

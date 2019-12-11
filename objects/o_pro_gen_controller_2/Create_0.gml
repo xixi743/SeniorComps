@@ -22,13 +22,17 @@ x = wall_width+ gap_from_wall;
 // when to stop generating platforms
 	// when they are too close to the walls
 	if x >= 64 and x <= rm_width - wall_width {
-		stairs_pattern();
+		stairs_pattern(7);
 	}
 	
 	if x >= 64 and x <= rm_width - wall_width {
-		doubled_pattern();
+		doubled_pattern(5);
 	}
 	
 	if x >= 64 and x <= rm_width - wall_width {
-		stairs_pattern();
+		stairs_pattern(4);
+	}
+	
+	if x >= 64 and x <= rm_width - wall_width {
+		flat_jumping_pattern(3);
 	}

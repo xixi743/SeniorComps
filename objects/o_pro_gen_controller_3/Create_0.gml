@@ -23,13 +23,8 @@ x = wall_width+ gap_from_wall;
 	// when they are too close to the walls
 	if x >= 64 and x <= rm_width - wall_width {
 		if y <= floor_start_height {
-			place_platform160();
-			place_platform48();
-			pro_gen_increment_y()
-			place_platform80();
-			pro_gen_decrement_y();
-			// i manually placed platforms here for the sake of 
-			// just testing it out in my first game room
-			stairs_pattern(5);
+			stairs_pattern(2);
+			flat_jumping_pattern(7);
+			stairs_down_pattern(3);
 		}
 	}

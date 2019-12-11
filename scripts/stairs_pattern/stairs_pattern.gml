@@ -1,12 +1,14 @@
-times = random_range(3, 5);
+// Full stairs pattern going up and down
 
-repeat(times) {
-	instance_create_layer(x, y, "Instances", obj_platform_80x16);
-	x+= (platform80_length+random_range(minimum_platform_distance, player_jump_distance_x));
+///@arg height
+
+var height = argument0;
+
+repeat(height) {
+	random_midsize_platform();
 	y-= random_range(player_height, player_jump_height);
 }
-repeat(times) {
-	instance_create_layer(x, y, "Instances", obj_platform_80x16);
-	x+= (platform80_length+random_range(minimum_platform_distance, player_jump_distance_x));
+repeat(height) {
+	random_midsize_platform();
 	y+= random_range(player_height, player_jump_height);
 }
