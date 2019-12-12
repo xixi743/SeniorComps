@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "422b0f88-7897-46d9-a09b-abb4704d95aa",
+            "Value": {
+                "id": "fdbab7fe-5118-443b-83a5-c5bcae61dbfc",
+                "resourcePath": "scripts\\climb_up_pattern\\climb_up_pattern.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4348166f-4e44-4112-afe6-f8de89793407",
             "Value": {
                 "id": "f0917eec-b53e-489f-af90-0f7ffccb7bf0",
@@ -394,7 +402,7 @@
             "Key": "491001fa-0fe5-442e-ba1f-a7207fa16ca3",
             "Value": {
                 "id": "c1c0ab5c-8383-47e8-98dc-72f7ee029b17",
-                "resourcePath": "rooms\\r_five\\r_five.yy",
+                "resourcePath": "rooms\\_two\\_two.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -492,14 +500,6 @@
                 "id": "4df42f74-cc7f-4b61-a56f-bfc2a6885aa1",
                 "resourcePath": "views\\5945498c-b3c3-499a-b694-fbcdedfd0732.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5a967ed5-9d6d-4312-97d5-9504fe64451d",
-            "Value": {
-                "id": "bc86d300-51a8-4041-ba91-5813342f3a0f",
-                "resourcePath": "objects\\o_level_lock\\o_level_lock.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -618,7 +618,7 @@
             "Key": "6798ccf5-434d-428e-a369-785aff19f5bf",
             "Value": {
                 "id": "37805896-68b1-44cf-847a-68e20b684803",
-                "resourcePath": "rooms\\r_six\\r_six.yy",
+                "resourcePath": "rooms\\r_three\\r_three.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -659,6 +659,14 @@
             "Value": {
                 "id": "0685e171-314d-495b-8639-7afb4034316d",
                 "resourcePath": "scripts\\random_midsize_platform\\random_midsize_platform.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6edbfc14-0c71-41f2-a1ca-1561c044daab",
+            "Value": {
+                "id": "9ddf4a3c-954e-4c90-87c9-bfbdb38b661c",
+                "resourcePath": "scripts\\random_small_platform\\random_small_platform.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1239,6 +1247,14 @@
             }
         },
         {
+            "Key": "bc6c9098-c4a0-4e20-a258-fe37000406c0",
+            "Value": {
+                "id": "1176c98d-8e8f-435b-bbbf-afb206683282",
+                "resourcePath": "rooms\\r_four\\r_four.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bd888102-e31b-4b87-bebf-b85d61f85dc1",
             "Value": {
                 "id": "470bec5a-e258-415a-89d1-d3c7848eafc1",
@@ -1290,7 +1306,7 @@
             "Key": "c36986a5-7854-4dc3-83b7-7117cea710c1",
             "Value": {
                 "id": "a2e51d3e-5657-49de-8b59-11cca9db4a9d",
-                "resourcePath": "rooms\\r_four\\r_four.yy",
+                "resourcePath": "rooms\\r_one\\r_one.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1559,6 +1575,14 @@
             }
         },
         {
+            "Key": "f2e31a1e-6ea0-49e9-97f9-d764fa9a23de",
+            "Value": {
+                "id": "e0780e1c-0463-4c2a-a12e-ddac0135ff93",
+                "resourcePath": "objects\\o_pro_gen_controller_4\\o_pro_gen_controller_4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "a8527b53-22b8-40ed-894a-c8a488106ce3",
@@ -1694,6 +1718,7 @@
         "fc43b658-e7e1-48df-99ac-92790b944c22",
         "54d7e0e1-f7d8-4580-88c0-db9a20738060",
         "bbeb7ec9-46b3-40ad-b310-40a315a1b62e",
+        "6edbfc14-0c71-41f2-a1ca-1561c044daab",
         "6e66d588-fb86-474c-8a8c-805f6c43be5c",
         "925abcad-55bb-4549-8243-9d59e0fc690c",
         "fd748f3e-fc5e-4802-a498-342286b10524",
@@ -1702,6 +1727,7 @@
         "9e993138-d69a-40b6-a08c-7b18dafad9dc",
         "bd888102-e31b-4b87-bebf-b85d61f85dc1",
         "88f1a681-8f2b-4a61-acce-fbb3e5022cc4",
+        "422b0f88-7897-46d9-a09b-abb4704d95aa",
         "a03a2a94-0e1d-472f-8652-f0cfa380841c",
         "22332f6a-0b02-4388-9291-936ecaa88b04",
         "a7893dbd-dd3b-4f60-bb3b-6bfc1231f143",

@@ -5,6 +5,7 @@ event_inherited();
 y = floor_start_height - tallest_enemy_height;
 x = wall_width+ gap_from_wall;
 
+starting_x = x;
 // create some patterns of platforms to generate
 
 // origin is the upper left corner
@@ -15,8 +16,9 @@ x = wall_width+ gap_from_wall;
 	// when they are too close to the walls
 	if x >= 64 and x <= rm_width - wall_width {
 		if y <= floor_start_height {
-			stairs_pattern(2);
-			flat_jumping_pattern(5);
-			stairs_down_pattern(3);
+			climb_up_pattern(5);
+			x = starting_x;
+			x += platform160_length;
+			climb_up_pattern(8);
 		}
 	}

@@ -18,7 +18,7 @@ if first_instance = true {
 
 if (hascontrol) {
 	x=clamp(x, 41, room_width);
-y=clamp(y, 0, room_height);
+	y=clamp(y, 0, room_height);
 	
 	switch (state)
 	{
@@ -159,7 +159,8 @@ y=clamp(y, 0, room_height);
 		
 			if animation_end() {
 				instance_destroy();
-				slide_transition(TRANS_MODE.GOTO,7);
+				slide_transition(TRANS_MODE.GOTO,9);
+				state = "move";
 			}
 		
 			#endregion

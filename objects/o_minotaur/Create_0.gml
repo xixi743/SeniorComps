@@ -2,7 +2,7 @@ event_inherited();
 
 state = "wait";
 
-chase_speed = 1;
+chase_speed = random_range(1,2);
 attack_speed = .8;
 attack_range = 45;
 idle_range = 300;
