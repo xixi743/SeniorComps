@@ -21,7 +21,8 @@
         "88f1a681-8f2b-4a61-acce-fbb3e5022cc4",
         "422b0f88-7897-46d9-a09b-abb4704d95aa",
         "2b988299-a4dc-4dc5-a91a-a02c76c69069",
-        "43599677-8855-4dab-9985-ad63b29e10b6"
+        "43599677-8855-4dab-9985-ad63b29e10b6",
+        "b40cf87e-8d45-4985-9a8c-12bb0a91d92c"
     ],
     "filterType": "GMScript",
     "folderName": "Procedural Generation",
