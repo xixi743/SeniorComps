@@ -10,7 +10,7 @@
 player_jump_height = 100;
 player_height = 56;
 player_jump_distance_x = 190;
-minimum_platform_distance = 20;
+minimum_platform_distance = 40;
 tallest_enemy_height = 135;
 floor_start_height = room_height - (16*4);
 wall_width = 64; //16*4

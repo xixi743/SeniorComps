@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "2b988299-a4dc-4dc5-a91a-a02c76c69069",
+            "Value": {
+                "id": "9c381df4-e213-4128-8823-9bb0168cd0a5",
+                "resourcePath": "scripts\\zig_zag_pattern\\zig_zag_pattern.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2baf7b1c-32e8-458a-b536-b3b51c58aeaa",
             "Value": {
                 "id": "16e16a28-d2e4-4f49-a2bd-0bd89fa6d5df",
@@ -340,6 +348,14 @@
                 "id": "f0917eec-b53e-489f-af90-0f7ffccb7bf0",
                 "resourcePath": "objects\\o_bat\\o_bat.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43599677-8855-4dab-9985-ad63b29e10b6",
+            "Value": {
+                "id": "273aed72-d6c8-4e0f-b078-c3b141d14317",
+                "resourcePath": "scripts\\pro_gen_decrement_x\\pro_gen_decrement_x.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1728,6 +1744,8 @@
         "bd888102-e31b-4b87-bebf-b85d61f85dc1",
         "88f1a681-8f2b-4a61-acce-fbb3e5022cc4",
         "422b0f88-7897-46d9-a09b-abb4704d95aa",
+        "2b988299-a4dc-4dc5-a91a-a02c76c69069",
+        "43599677-8855-4dab-9985-ad63b29e10b6",
         "a03a2a94-0e1d-472f-8652-f0cfa380841c",
         "22332f6a-0b02-4388-9291-936ecaa88b04",
         "a7893dbd-dd3b-4f60-bb3b-6bfc1231f143",

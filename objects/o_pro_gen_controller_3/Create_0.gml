@@ -16,7 +16,7 @@ x = wall_width+ gap_from_wall;
 	if x >= 64 and x <= rm_width - wall_width {
 		if y <= floor_start_height {
 			stairs_pattern(2);
-			flat_jumping_pattern(5);
+			zig_zag_pattern(5);
 			stairs_down_pattern(3);
 		}
 	}

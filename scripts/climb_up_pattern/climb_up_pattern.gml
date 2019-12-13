@@ -2,12 +2,20 @@
 
 var height = argument0;
 
-pattern_start_x = x;
+last_platform = 0;
 
 repeat(height) {
 	random_small_platform();
-	random_small_platform();
-	x = choose(pattern_start_x + irandom_range(0,100), pattern_start_x-irandom_range(0,100));
 	pro_gen_increment_y();
-	y += 40;
+	random_midsize_platform();
+	pro_gen_increment_y();
+	last_platform = x;
+	random_midsize_platform();
+	x = last_platform;
+	y-= player_jump_height;
+	pro_gen_decrement_x();
+	last_platform = x;
+	random_midsize_platform();
+	x = last_platform;
+	pro_gen_decrement_x();
 }

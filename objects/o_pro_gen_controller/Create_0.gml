@@ -24,9 +24,12 @@ x = wall_width+ gap_from_wall;
 	if x >= 64 and x <= rm_width - wall_width {
 		if y <= floor_start_height {
 			place_platform160();
+		}
+	}
+	
+		if x >= 64 and x <= rm_width - wall_width {
+		if y <= floor_start_height {
 			pro_gen_increment_y();
-			// i manually placed platforms here for the sake of 
-			// just testing it out in my first game room
 			stairs_pattern(5);
 		}
 	}
