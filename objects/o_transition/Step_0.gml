@@ -6,7 +6,6 @@ if (mode != TRANS_MODE.OFF) {
 		percent = max(0, percent - max((percent/10), 0.005));
 		// reducing our percent by 1/10th
 		// reducing the amount its recducing it by
-		// 
 	} else {
 		percent = min(1.2, percent + max (((1.2 - percent)/10), 0.005));
 		// we want 10% of the distance we have left to go

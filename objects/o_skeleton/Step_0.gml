@@ -22,6 +22,10 @@ switch (state) {
 		// check if player exists
 		if !instance_exists(o_player) break;
 		
+		if (x == o_player.x) {
+			image_xscale = 3;
+		}
+		
 		image_xscale = (sign(o_player.x - x))*3;
 		// sign function returns -1, 0, or 1
 		// returns -1 if if value is negative
@@ -29,6 +33,7 @@ switch (state) {
 		if image_xscale == 0 {
 			image_xscale = 3;
 		}
+
 		// makes zombie face player at all times
 	
 		// now we actually need to move towards the player
@@ -40,6 +45,9 @@ switch (state) {
 		} else {
 			//move towards the player
 			move_and_collide(direction_facing * chase_speed, 0);
+			if o_skeleton.x == o_player.x {
+				o_skeleton.image_xscale = o_player.image_xscale;
+			}
 		}
 		#endregion
 		break;
